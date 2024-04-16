@@ -1,4 +1,76 @@
 @media only screen and (min-width: 400px) and (max-width: 450px) {
+  .logo {
+    width: 105px;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+
+  .container button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .rocket {
+    width: 250px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    animation: rocket 7s linear infinite;
+  }
+
+  @keyframes rocket {
+    0% {
+      bottom: 0;
+      opacity: 0;
+    }
+    100% {
+      bottom: 105%;
+      opacity: 1;
+    }
+  }
 }
 @media only screen and (min-width: 350px) and (max-width: 400px) {
+  .logo {
+    width: 105px;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+
+  .container button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .rocket {
+    width: 250px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    animation: rocket 7s linear infinite;
+  }
+
+  @keyframes rocket {
+    0% {
+      bottom: 0;
+      opacity: 0;
+    }
+    100% {
+      bottom: 105%;
+      opacity: 1;
+    }
+  }
 }
